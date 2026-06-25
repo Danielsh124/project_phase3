@@ -27,5 +27,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/my-python-app:latest
-            ${{ secrets.DOCKERHUB_USERNAME }}/my-python-app:${{ github.sha }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/project-phase3:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/project-phase3:${{ github.sha }}

@@ -34,4 +34,4 @@ jobs:
         with:
           context: .
           push: false
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-python-app:test
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/project-phase3:test
